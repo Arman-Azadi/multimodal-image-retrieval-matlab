@@ -3,7 +3,7 @@ clear;
 
 % مسیرها
 dbFolder = fullfile(pwd, 'DB');
-excelFile = fullfile(pwd, 'book.xlsx');
+excelFile = fullfile(pwd, 'image_metadata.xlsx');
 
 % خواندن فایل اکسل
 [~, ~, raw] = xlsread(excelFile);
@@ -48,3 +48,4 @@ else
         title(strrep(db(sortedIdx(i)).name, '_', '\_'));
     end
 end
+
