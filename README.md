@@ -28,6 +28,7 @@ The text search module allows users to query the dataset using natural language 
 * `extract_hsv_features.m`: Helper function for HSV quantization and histogram generation.
 * `bhattacharyya.m`: Mathematical function for computing histogram distance.
 * `image_metadata.csv`: Database catalog mapping filenames to tags.
+* `custom_dataset.zip`: The custom dataset with DB folder
 
 ## 🚀 Usage
 
