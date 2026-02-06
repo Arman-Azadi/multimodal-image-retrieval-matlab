@@ -19,7 +19,7 @@ The visual search module quantifies "similarity" between a query image and datab
 
 ### 2. Semantic Search Engine (TBIR)
 The text search module allows users to query the dataset using natural language keywords.
-* **Data Source:** Uses `image_metadata.csv` containing filenames and descriptive tags.
+* **Data Source:** Uses `image_metadata.xlsx` containing filenames and descriptive tags.
 * **Algorithm:** Implements string pattern matching to filter and rank images that contain the query terms in their metadata.
 
 ## 📂 File Structure
@@ -27,7 +27,7 @@ The text search module allows users to query the dataset using natural language 
 * `main_text_search.m`: Main script for running the TBIR engine.
 * `extract_hsv_features.m`: Helper function for HSV quantization and histogram generation.
 * `bhattacharyya.m`: Mathematical function for computing histogram distance.
-* `image_metadata.csv`: Database catalog mapping filenames to tags.
+* `image_metadata.xlsx`: Database catalog mapping filenames to tags.
 * `custom_dataset.zip`: The custom dataset with DB folder
 
 ## 🚀 Usage
